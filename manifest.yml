@@ -1,0 +1,8 @@
+---
+applications:
+- name: rabbitmq-spring
+  memory: 1GB
+  instances: 1
+  host: rabbitmq-spring-${random-word}
+  path: target/rabbitmq-spring-1.0-SNAPSHOT.war
+
